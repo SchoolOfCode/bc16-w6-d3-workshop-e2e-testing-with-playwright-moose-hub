@@ -1,0 +1,18 @@
+{
+  "name": "workshop_playwright_e2e",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config server.mjs",
+    "reset-db": "node -r dotenv/config db/reset-tables.mjs"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1"
+  }
+}
